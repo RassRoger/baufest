@@ -1,0 +1,7 @@
+<div *ngIf="students$ | async as students" class="body squares">
+  <div *ngFor="let student of students">
+    <div>
+      {{student.givenName}}
+    </div>
+  </div>
+</div>
